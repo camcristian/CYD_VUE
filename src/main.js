@@ -7,7 +7,7 @@ import store from './store'
 import axios from 'axios'
 
 Vue.config.productionTip = false
-axios.defaults.baseURL='https://sistemaweb20190609121605.azurewebsites.net/'
+axios.defaults.baseURL='http://www.lautaroweb.cl:8070/'
 new Vue({
   router,
   store,
